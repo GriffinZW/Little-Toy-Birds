@@ -1,29 +1,90 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  outline-style: ridge;
+h3 {
   text-align: center;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  padding: 8px;
-  background-color: #dddddd;
+  font-family: American Typewriter, serif;
+  font-size: 60px;
 }
 h1 {
-  text-align: center;
-  font-family: sans-serif;
+  color: #ff8533;
+  text-shadow: 2px 2px 8px #ff0000;
 }
+h4 {
+  text-align: center;
+  font-family: American Typewriter, serif;
+  font-size: 40px;
+}
+
 img {
   height: 200px;
   width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: American Typewriter, serif;
 }
+
 p {
+  font-size: 25px;
+  text-align: center;
+  font-family: American Typewriter, serif;
+}
+h1 {
   font-size: 50px;
+  text-align: center;
+  font-family: DejaVu Sans Mono, monospace;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-family: American Typewriter, serif;
+}
+a {
+  text-align: center;
+  font-family: American Typewriter, serif;
+}
+
+body {
+  font-family: Arial;
+}
+
+form {
+  border: 3px solid #dbd7d7;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #dbd7d7;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+h5 {
+  font-size: 40px;
+  text-align: center;
+  font-family: American Typewriter, serif;
 }
